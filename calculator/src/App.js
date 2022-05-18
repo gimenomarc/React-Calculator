@@ -27,9 +27,9 @@ const calcularResultado = () => {
       <div className='container-calculadora'>
         <Pantalla input={input}></Pantalla>
         <div className='fila'>
-          <Boton manejarClick={addInput}>1</Boton>
-          <Boton manejarClick={addInput}>2</Boton>
-          <Boton manejarClick={addInput}>3</Boton>
+          <Boton manejarClick={addInput}>7</Boton>
+          <Boton manejarClick={addInput}>8</Boton>
+          <Boton manejarClick={addInput}>9</Boton>
           <Boton manejarClick={addInput}>+</Boton>
         </div>
         <div className='fila'>
@@ -39,9 +39,9 @@ const calcularResultado = () => {
           <Boton manejarClick={addInput}>-</Boton>
         </div>
         <div className='fila'>
-          <Boton manejarClick={addInput}>7</Boton>
-          <Boton manejarClick={addInput}>8</Boton>
-          <Boton manejarClick={addInput}>9</Boton>
+          <Boton manejarClick={addInput}>1</Boton>
+          <Boton manejarClick={addInput}>2</Boton>
+          <Boton manejarClick={addInput}>3</Boton>
           <Boton manejarClick={addInput}>*</Boton>
         </div>
         <div className='fila'>
