@@ -3,7 +3,9 @@ import '../Styles/Boton.css'
 
 function Boton (props) {
     return (
-      <div className='btn'>
+      <div 
+      className='btn'
+      onClick={() => props.manejarClick(props.children)}>
         {props.children}
       </div>
     );
